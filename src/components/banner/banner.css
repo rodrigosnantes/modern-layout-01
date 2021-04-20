@@ -1,0 +1,26 @@
+
+.feature-img {
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+    opacity: 0.8;
+}
+
+@media(max-width:1008px) {
+    .feature-img {
+        height: 60%;
+    }
+}
+
+@media(max-width:890px) {
+    .feature-img {
+        height: 40%;
+    }
+}
+
+@media(max-width:490px) {
+    .feature-img {
+        height: 40%;
+    }
+}
